@@ -3,8 +3,9 @@ const { Server } = require("socket.io");
 
 const httpServer = createServer();
 const io = new Server(httpServer, {
-    cors: "*",
-    methods: ["GET", "POST"]
+    cors: {
+        origin: '*',
+      }
 });
 
 const allUsers = {};
