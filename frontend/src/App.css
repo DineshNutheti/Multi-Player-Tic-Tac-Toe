@@ -53,9 +53,8 @@
   height: 30px;
   width: 120px;
   background-color: red;
-  border-bottom-left-radius: 50px;
   background-color: #4b495f;
-  border-top-right-radius: 50px;
+  border-radius: 15px;
   padding-top: 7px;
   font-size: 18px;
   padding-bottom: 5px;
@@ -80,5 +79,5 @@
 }
 
 .current-move-circle {
-  background-color: #dd7f9f !important;
+  background-color: #3fa7f0 !important;
 }
